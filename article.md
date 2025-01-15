@@ -39,7 +39,7 @@ The other variables necessary for this project could not be required a secondary
 
 ### Generating Initial Representations of XBand Data
 After making the XBand data usable and filtering it by wave height, it was possible to generate visual representations of the collected data. The first diagrams created were heat maps showing the depth across the measured region. The process to create this diagram was repeated at each time the filtered XBand data was available. @Bathymap-example is an example of this type of graph. After running through the entirety of the collected data, 1988 heat maps were produced.
-After the initial heatmaps showing depth at each location, the next step was to generate a similar map that instead showed the change in depth over measured periods. To do this, a new array of matrices was created from the difference between each original matrix at sequential time periods. After finding this new three-dimensional array, the process of producing heat maps was replicated, but they now showed the difference in depth between two measured times. An example of this is @Delta-bathymap-example*.
+After the initial heatmaps showing depth at each location, the next step was to generate a similar map that instead showed the change in depth over measured periods. To do this, a new array of matrices was created from the difference between each original matrix at sequential time periods. After finding this new three-dimensional array, the process of producing heat maps was replicated, but they now showed the difference in depth between two measured times. An example of this is @Delta-bathymap-example.
 
 ```{figure} images/20220104-0737.png
 :label: Bathymap-example
