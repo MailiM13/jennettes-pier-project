@@ -1,0 +1,48 @@
+version: 1
+project:
+  title: 'An Analysis of Bathymetric Relationships between Wave Metrics and Sand Movement'
+  description: Investigates the relationship between wave energy density, height and period and changes in bathymetry.
+  keywords:
+    - oceanography
+    - beach morphology
+    - shoreline recession
+    - beach erosion
+    - shoreline recession
+    - bathymetry
+    - wave energy density
+  subject: Physical Oceanography
+  author:
+    - name: Maili McManus
+      corresponding: true
+      orcid: 0009-0001-7849-6312
+      affiliations:
+        - North Carolina School of Science and Math
+        - Coastal Studies Institute
+      email: mailimcmanus@gmail.com
+      phone: (252) 423-8478
+      roles:
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Methodology
+        - Software
+        - Supervision
+        - Validation
+        - Visualization
+        - Writing - original draft
+        - Writing - review & editing
+      github: MailiM13
+      url:
+  reviewers:
+    - name: Mike Muglia
+  abbreviations:
+    CSI: Coastal Studies Institute
+    NCSSM: North Carolina School of Science and Math
+    CDIP: Coastal Data Information Program
+site:
+  template: article-theme
+
+      
+
+    
