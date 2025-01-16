@@ -11,8 +11,8 @@ parts:
     Some of the data that support the findings of this study are openly available in jennettes-pier-project at (https://github.com/MailiM13/jennettes-pier-project/2022-2021_Xband_Data).
     The other data  that support the findings of this study are available in the CDIP historic server at (http://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/archive/243p1/243p1_historic.nc.html).
 exports:
-  - format: pdf
-    template: arxiv_two_column
+  - format: typst
+    template: lapreprint-typst
     output: exports/paper.pdf
 ---
 
@@ -70,32 +70,32 @@ Each wave energy value was then associated with the corresponding XBand time sta
 ### Generating First-Level Graphs Representing Relationships Between CDIP Metrics and Quantitative Morphodynamic Variables
 After developing a quantitative variable representing one aspect of the morphodynamic process acting on the area, it was possible to relate it visually to the CDIP metrics. The first graphs were a series of boxplots describing the amount of sand moved across wave height (@wave-height-boxplot), wave period (@wave-period-boxplot), and wave energy density levels (@wave-energy-boxplot) at varying levels. The range of the levels was based on the statistical distribution of each dataset. Specifically, quartile 1, 2, and the median of wave height, wave period, and wave energy datasets were utilized as the constraints for each graph. Other graphs generated were several line plots comparing the following pairs: sand moved and wave height (@wave-height-scatter), sand moved and wave period (@wave-period-scatter) and sand moved and wave energy density (@wave-energy-scatter). These graphs allow for accessible interpretation of the relationships between measured variables.
 
-```{figure} images/wave-height-boxplot.png
+```{figure} #wave-height-boxplot
 :label: wave-height-boxplot
 Figure shows the distribution of sand moved at four levels of wave heights, calculated by analyzing the quartiles of the distribution of wave heights across the timespan where data was collected
 ```
 
-```{figure} images/wave-period-boxplot.png
+```{figure} #wave-period-boxplot
 :label: wave-period-boxplot
 Figure shows the distribution of sand moved at four levels of wave periods, calculated by analyzing the quartiles of the distribution of wave periods across the timespan where data was collected
 ```
 
-```{figure} images/wave-energy-boxplot.png
+```{figure} #wave-energy-boxplot
 :label: wave-energy-boxplot
 Figure shows the distribution of sand moved at four levels of wave energy density, calculated by analyzing the quartiles of the distribution of wave energy density across the timespan where data was collected
 ```
 
-```{figure} images/wave-height-scatter.png
+```{figure} #wave-height-scatter
 :label: wave-height-scatter
 Figure shows the comparison of sand moved and wave height across the measured timescale, where the x-ticks represent the date at varying intervals during this timescale
 ```
 
-```{figure} images/wave-period-scatter.png
+```{figure} #wave-period-scatter
 :label: wave-period-scatter
 Figure shows the comparison of sand moved and wave period across the measured timescale, where the x-ticks represent the date at varying intervals during this timescale
 ```
 
-```{figure} images/wave-energy-scatter.png
+```{figure} #wave-energy-scatter
 :label: wave-energy-scatter
 Figure shows the comparison of sand moved and wave energy density across the measured timescale, where the x-ticks represent the date at varying intervals during this timescale
 ```
@@ -106,12 +106,12 @@ After finding all these data sets and variables, I statistically analyzed the re
 ### Generating Second-Level Graphs Representing Relationships Between CDIP Metrics and XBand Data
 The final graphs generated were scatterplots incorporating a line of best fit relating wave energy density, and wave height as the independent variable and volume of sand moved as the dependent variable (@wave-height-best-fit, @wave-energy-best-fit). I found the line of best fit by incorporating a function that iterated through various function types, inputting the x and y values, and returned the one with the highest r value, allowing me to overlay the correct line of best fit over the scatterplot. This graph shows the correlation between wave energy and the volume of sand moved and has the potential to provide a method for predicting the volume of sand moved based on the line of best fit.
 
-```{figure} images/wave-height-eq.png
+```{figure} #wave-height-best-fit
 :label: wave-height-best-fit
 Figure shows scatterplot and line of best fit relating wave height and sand moved
 ```
 
-```{figure} images/wave-energy-eq.png
+```{figure} #wave-energy-best-fit
 :label: wave-energy-best-fit
 Figure shows scatterplot and line of best fit relating wave energy density and sand moved
 ```
