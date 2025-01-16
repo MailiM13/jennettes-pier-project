@@ -1,11 +1,15 @@
 ---
 title: An Analysis of Bathymetric Relationships between Wave Metrics and Sand Movement
-abstract: |
+parts:
+  abstract: |
     As sea levels rise and increase the rates of shoreline recession around coastal communities, developing strategies to mitigate this erosion should involve an examination of near-shore bathymetry and morphology to achieve informed management plans. This project investigates the relationship between wave energy density, height and period and changes in bathymetry.
     This analysis used bathymetric measurements of the beach surrounding the XBand radar at Jennette’s Pier and ocean conditions. It should be noted that the reliability of XBand is uncertain, so confirmation of these measurements should be applied in the future. Through a comprehensive analysis of thousands of depth measurements calculated from the XBAND radar wave measurements between December 2021 - December 2022, the designed program calculated bathymetric changes by finding differences in snapshots of bathymetry between each XBand reading and relating them to directional wave spectral measurements from an offshore Datawell Waverider buoy (CDIP 243) located at 36 0.090' (N), 75 25.254' (W), or approximately 10 miles offshore of Jennette’s Pier in Nags Head, N.C.
     This analysis revealed little correlation between wave height and the calculated volume of sand moved, though there was a slight correlation between wave energy density and volume of sand moved. These analyses suggest the value of making these measurements to make informed management decisions. 
     Future research could further identify features of the bathymetry plot associated with slower erosion rates, and enhance understanding of how swell conditions impact erosion rate. Additionally, investigating how erosion follows periodic changes across seasons and years presents an impactful avenue for analysis.
     This line of research has the potential to shape the development of artificial reefs, incorporating ecological and morphological considerations. By elucidating the relationship between wave properties and bathymetric changes, this study advances understanding, providing a starting point for future research toward mitigating shoreline recession rates as sea levels rise.
+  availability: |
+    Some of the data that support the findings of this study are openly available in [jennettes-pier-project] at (https://github.com/MailiM13/jennettes-pier-project/2022-2021_Xband_Data).
+    The other data  that support the findings of this study are available in the CDIP historic server at (http://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/archive/243p1/243p1_historic.nc.html).
 ---
 
 ## Introduction
