@@ -8,7 +8,7 @@ parts:
     Future research could further identify features of the bathymetry plot associated with slower erosion rates, and enhance understanding of how swell conditions impact erosion rate. Additionally, investigating how erosion follows periodic changes across seasons and years presents an impactful avenue for analysis.
     This line of research has the potential to shape the development of artificial reefs, incorporating ecological and morphological considerations. By elucidating the relationship between wave properties and bathymetric changes, this study advances understanding, providing a starting point for future research toward mitigating shoreline recession rates as sea levels rise.
   availability: |
-    Some of the data that support the findings of this study are openly available in `jennettes-pier-project` at (https://github.com/MailiM13/jennettes-pier-project/2022-2021_Xband_Data).
+    Some of the data that support the findings of this study are openly available in jennettes-pier-project at (https://github.com/MailiM13/jennettes-pier-project/2022-2021_Xband_Data).
     The other data  that support the findings of this study are available in the CDIP historic server at (http://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/archive/243p1/243p1_historic.nc.html).
 ---
 
