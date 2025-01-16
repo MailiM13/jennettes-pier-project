@@ -10,6 +10,10 @@ parts:
   availability: |
     Some of the data that support the findings of this study are openly available in jennettes-pier-project at (https://github.com/MailiM13/jennettes-pier-project/2022-2021_Xband_Data).
     The other data  that support the findings of this study are available in the CDIP historic server at (http://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/archive/243p1/243p1_historic.nc.html).
+exports:
+  - format: pdf
+  - template: arxiv_two_column
+  output: exports/paper.pdf
 ---
 
 ## Introduction
